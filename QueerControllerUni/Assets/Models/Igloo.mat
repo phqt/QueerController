@@ -30,7 +30,7 @@ Material:
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: 2050
   stringTagMap:
     RenderType: Opaque
@@ -134,16 +134,16 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BrushLowerCut: 0
-    - _BrushSize: 0.8
+    - _BrushSize: 0.26
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DiffuseStep: 0.44
-    - _DitherTexelSize: 1
+    - _DiffuseStep: -1
+    - _DitherTexelSize: 2.5
     - _DitherThreshold: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
@@ -162,17 +162,17 @@ Material:
     - _HairSpecularSize: 0.8
     - _HairSpecularSmoothness: 0.1
     - _HalfToneDiffuseStep: 0
-    - _HalfToneEnabled: 0
-    - _HalfToneIncludeReceivedShadow: 0
+    - _HalfToneEnabled: 1
+    - _HalfToneIncludeReceivedShadow: 1
     - _HalfToneShape: 0
     - _HalfToneUvMode: 1
     - _HalftoneFadeDistance: 10
-    - _HalftoneFadeToColor: 0
+    - _HalftoneFadeToColor: 1
     - _HalftoneNoiseClip: 6.6
-    - _HalftoneTilling: 7.35
-    - _HatchingDensity: 1
-    - _HatchingDiffuseOffset: 0
-    - _HatchingDrawStrength: 4.2
+    - _HalftoneTilling: 54.53
+    - _HatchingDensity: 0.02
+    - _HatchingDiffuseOffset: -0.22
+    - _HatchingDrawStrength: 5.6
     - _HatchingEnabled: 0
     - _HatchingRotation: 0
     - _HatchingSmoothness: 0.1
@@ -222,8 +222,8 @@ Material:
     - _FaceFrontDirection: {r: 0, g: 0, b: 1, a: 0}
     - _FaceRightDirection: {r: 1, g: 0, b: 0, a: 0}
     - _HairSpecColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HalfToneColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HatchingColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HalfToneColor: {r: 0, g: 0, b: 0, a: 0.088}
+    - _HatchingColor: {r: 1, g: 0, b: 0, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineDistancFade: {r: -60, g: 15, b: 0, a: 0}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
