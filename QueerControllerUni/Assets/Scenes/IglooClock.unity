@@ -207,7 +207,8 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 750309142698885049, guid: 5c49c4d8b2dcf4be4b64e5660c17e452, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 7446590082972375451, guid: 5c49c4d8b2dcf4be4b64e5660c17e452,
@@ -395,7 +396,7 @@ Transform:
   m_GameObject: {fileID: 1043598078}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.88619006, z: 0, w: 0.4633221}
-  m_LocalPosition: {x: -0.027, y: 0.269, z: 0.138}
+  m_LocalPosition: {x: -0.027, y: 0.227, z: 0.138}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -544,7 +545,7 @@ Transform:
   m_GameObject: {fileID: 1102312435}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.88619006, z: -0, w: 0.4633221}
-  m_LocalPosition: {x: -0.027, y: 0.269, z: 0.138}
+  m_LocalPosition: {x: -0.027, y: 0.227, z: 0.138}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -810,7 +811,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1043598081}
+  - {fileID: 1102312437}
   - {fileID: 1518987729}
   - {fileID: 1683577775}
-  - {fileID: 1102312437}
   - {fileID: 56389047}
