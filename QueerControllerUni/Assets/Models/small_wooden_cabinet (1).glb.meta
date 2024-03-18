@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: d11af902c32394f8d80fad2b40451dd9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: 3f3fa897299ad41aba68571b0be1c92f, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_0
+    second: {fileID: 2800000, guid: a398fa7efca0b4c4287308c13f435616, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_1.standard
+    second: {fileID: 2800000, guid: 75c4fc96848c5446293eaaab84a764c6, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_2.normal
+    second: {fileID: 2800000, guid: 06e3cfcfed5034bd4be79e77067a4230, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: cc45016b844e7624dae3aec10fb443ea, type: 3}
+  reverseAxis: 0
+  renderPipeline: 1

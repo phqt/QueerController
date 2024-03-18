@@ -1,0 +1,52 @@
+fileFormatVersion: 2
+guid: 1242d736acb6645d48d2e75f40a11bae
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 7a33ac139b2dc43c8a720294eb58cfec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 251174f89948649368c6a96b6c42955b, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_0
+    second: {fileID: 2800000, guid: c1100362de8eb42a7bc08618d512459f, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_1.standard
+    second: {fileID: 2800000, guid: 215014d16163d4b6a9f7c34d7e04498f, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_2.normal
+    second: {fileID: 2800000, guid: b908c014c1b7b4a5ba536446dbdb5132, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_3
+    second: {fileID: 2800000, guid: d7b2f46fbeb4e47da83dc44b33f20526, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_4.standard
+    second: {fileID: 2800000, guid: d17f7f8d26b9a4e5e8c855fce54149d4, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_5.normal
+    second: {fileID: 2800000, guid: d326913722e004aaaabb913201348555, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: cc45016b844e7624dae3aec10fb443ea, type: 3}
+  reverseAxis: 0
+  renderPipeline: 1

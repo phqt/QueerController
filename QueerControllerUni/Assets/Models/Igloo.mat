@@ -134,7 +134,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BrushLowerCut: 0
-    - _BrushSize: 0.26
+    - _BrushSize: 0.19
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -169,7 +169,7 @@ Material:
     - _HalftoneFadeDistance: 10
     - _HalftoneFadeToColor: 1
     - _HalftoneNoiseClip: 6.6
-    - _HalftoneTilling: 54.53
+    - _HalftoneTilling: 54
     - _HatchingDensity: 0.02
     - _HatchingDiffuseOffset: -0.22
     - _HatchingDrawStrength: 5.6
@@ -222,7 +222,7 @@ Material:
     - _FaceFrontDirection: {r: 0, g: 0, b: 1, a: 0}
     - _FaceRightDirection: {r: 1, g: 0, b: 0, a: 0}
     - _HairSpecColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HalfToneColor: {r: 0, g: 0, b: 0, a: 0.088}
+    - _HalfToneColor: {r: 1, g: 1, b: 1, a: 0.088}
     - _HatchingColor: {r: 1, g: 0, b: 0, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineDistancFade: {r: -60, g: 15, b: 0, a: 0}
