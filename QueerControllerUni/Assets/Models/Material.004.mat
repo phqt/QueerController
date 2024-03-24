@@ -169,7 +169,7 @@ Material:
     - _HalftoneFadeDistance: 100
     - _HalftoneFadeToColor: 1
     - _HalftoneNoiseClip: 0.8
-    - _HalftoneTilling: 249.9
+    - _HalftoneTilling: 253.38
     - _HatchingDensity: 1
     - _HatchingDiffuseOffset: 0
     - _HatchingDrawStrength: 1
@@ -222,7 +222,7 @@ Material:
     - _FaceFrontDirection: {r: 0, g: 0, b: 1, a: 0}
     - _FaceRightDirection: {r: 1, g: 0, b: 0, a: 0}
     - _HairSpecColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HalfToneColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 0.072}
+    - _HalfToneColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 0}
     - _HatchingColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineDistancFade: {r: -25, g: 50, b: 0, a: 0}
