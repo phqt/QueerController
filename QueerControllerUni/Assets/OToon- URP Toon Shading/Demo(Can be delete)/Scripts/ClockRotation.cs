@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 public class ClockRotation : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class ClockRotation : MonoBehaviour
     public GameObject bigHand;
     public GameObject smallHand;
 
+    public float sceneSwitchDelay;
 
     void Start()
     {
@@ -27,6 +29,13 @@ public class ClockRotation : MonoBehaviour
         {
             smallHand.transform.DOLocalRotate(new Vector3(0, endRotationHour, 0), hourRotationTime).SetEase(Ease.InOutSine);
             bigHand.transform.DOLocalRotate(new Vector3(0, endRoatationMin, 0), minRotationTime).SetEase(Ease.InOutSine);
+            StartCoroutine(nextScene());
         }
+    }
+
+    IEnumerator nextScene()
+    {
+        yield return new WaitForSeconds(sceneSwitchDelay);
+        SceneManager.LoadScene(1);
     }
 }
