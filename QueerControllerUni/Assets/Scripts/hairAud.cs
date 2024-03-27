@@ -17,6 +17,8 @@ public class hairAud : MonoBehaviour
 
     public bool hairBool;
 
+    public AudioSource fireCrackle;
+
     void Start()
     {
         theFire.Pause();
@@ -35,6 +37,7 @@ public class hairAud : MonoBehaviour
             {
                 theFire.GetComponentInChildren<Light>().intensity = 1f;
                 theFire.Play();
+                fireCrackle.Play();
                 StartCoroutine(nextScene());
             }
 

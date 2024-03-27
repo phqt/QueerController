@@ -20,7 +20,6 @@ public class clockArd : MonoBehaviour
 
     public GameObject bigHand;
     public GameObject smallHand;
-    public GameObject dummy;
 
     public float sceneSwitchDelay;
 
@@ -40,7 +39,6 @@ public class clockArd : MonoBehaviour
             Debug.Log("Received value from Arduino: " + intValue);
             if (clockBool)
             {
-                dummy.SetActive(true);
                 smallHand.transform.DOLocalRotate(new Vector3(0, endRotationHour, 0), hourRotationTime).SetEase(Ease.InOutSine);
                 bigHand.transform.DOLocalRotate(new Vector3(0, endRoatationMin, 0), minRotationTime).SetEase(Ease.InOutSine);
                 StartCoroutine(nextScene());
