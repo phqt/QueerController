@@ -3093,12 +3093,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e90030b80130448fa4f27993619e0c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectsToActivate:
-  - {fileID: 7652410862805595772}
-  - {fileID: 1636535929}
-  - {fileID: 542214369}
-  - {fileID: 203469272}
   sceneSwitchDelay: 0
+  yogurtOne: {fileID: 7652410862805595772}
+  yogurtTwo: {fileID: 1636535929}
+  yogurtThree: {fileID: 542214369}
+  yogurtFour: {fileID: 203469272}
+  firstYogurt: 0
+  secondYogurt: 0
+  thirdYogurt: 0
+  fourthYogurt: 0
 --- !u!4 &965790197
 Transform:
   m_ObjectHideFlags: 0
