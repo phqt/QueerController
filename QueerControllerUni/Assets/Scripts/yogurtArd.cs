@@ -113,7 +113,13 @@ public class yogurtArd : MonoBehaviour
         //    Debug.Log("four");
         //}
     }
-
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene(2);
+        }
+    }
     void OnConnectionEvent(bool success)
     {
         Debug.Log(success ? "Device connected" : "Device disconnected");

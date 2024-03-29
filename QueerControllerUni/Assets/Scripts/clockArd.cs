@@ -52,6 +52,13 @@ public class clockArd : MonoBehaviour
             SceneManager.LoadScene(1);
         }
     }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene(1);
+        }
+    }
     void OnConnectionEvent(bool success)
     {
         Debug.Log(success ? "Device connected" : "Device disconnected");

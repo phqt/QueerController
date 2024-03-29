@@ -21,7 +21,7 @@ MonoBehaviour:
     m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.7
+    m_Value: 0.5
   scatter:
     m_OverrideState: 0
     m_Value: 0.7
@@ -90,10 +90,10 @@ MonoBehaviour:
   components:
   - {fileID: 849379129802519247}
   - {fileID: 1309640408056802075}
-  - {fileID: 3497181737730286018}
   - {fileID: 8583546975351335795}
   - {fileID: 2504177863466321126}
   - {fileID: -7893295128165547882}
+  - {fileID: 3497181737730286018}
   - {fileID: -7011558710299706105}
 --- !u!114 &849379129802519247
 MonoBehaviour:
@@ -440,7 +440,7 @@ MonoBehaviour:
     m_Value: {x: 0.58084387, y: 0.47763228, z: 1, w: 0.4810887}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0.054945175}
+    m_Value: {x: 1, y: 1, z: 1, w: -0.27264103}
   gain:
     m_OverrideState: 1
     m_Value: {x: 1, y: 1, z: 1, w: 0.054945055}

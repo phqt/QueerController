@@ -14,7 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BurningHair.unity
     guid: 16641fb3b3ad44b56a02ca909996de4c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/EndingPuffle.unity
     guid: 652d4df8278ef43839166eea3aeabdea
+  - enabled: 1
+    path: Assets/tf-lite-unity-sample-master 2/Assets/Samples/PoseNet/PoseNet.unity
+    guid: 338da8008aa764c05a72b5db18dc0d5c
+  - enabled: 1
+    path: Assets/Scenes/Puffle.unity
+    guid: 10e5f1a31ed4549108308e6585e6d9ca
   m_configObjects: {}

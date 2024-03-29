@@ -49,6 +49,13 @@ public class hairAud : MonoBehaviour
             SceneManager.LoadScene(3);
         }
     }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene(3);
+        }
+    }
     void OnConnectionEvent(bool success)
     {
         Debug.Log(success ? "Device connected" : "Device disconnected");
