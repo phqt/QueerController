@@ -4639,6 +4639,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3d_-_environment
       objectReference: {fileID: 0}
+    - target: {fileID: -5339113097714388108, guid: 492911a1b412942d48c5065d96cb59f4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 375947110588911019, guid: 492911a1b412942d48c5065d96cb59f4,
         type: 3}
       propertyPath: m_IsActive
